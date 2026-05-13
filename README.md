@@ -1,4 +1,4 @@
-# 3D_Swin_transformer_classification
+# 3D-Swin-Transformer-Classification
 ## Introduction
 The model is modified by [Swin_UNTER](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR/BTCV). The model has been augmented with a classification head, which can classify the type you want.
 Noticed that the model is for 3D medical image. Please modify your dataloader (`data_utils.py`) to customize the dataset.
